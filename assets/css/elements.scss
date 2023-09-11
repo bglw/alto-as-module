@@ -64,26 +64,26 @@ pre>code {
 [data-add] {
     &::before {
         content: "+";
-        color: #6ac86aa6;
+        color: var(--diffcode-added);
     }
 
     &>span {
-        background-color: #ddffddcf;
+        background-color: var(--diffcode-added);
     }
 }
 [data-remove] {
     &::before {
         content: "-";
-        color: #a81818a6;
+        color: var(--diffcode-removed);
     }
 
     &>span {
-        background-color: #ffcacacf;
+        background-color: var(--diffcode-removed);
     }
 }
 [data-highlight] {
     &>span {
-        background-color: #fffaa4cf;
+        background-color: var(--diffcode-highlighted);
     }
 }
 
