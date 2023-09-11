@@ -1,7 +1,7 @@
 
 {{ $diffBlock := (. | replaceRE "(?m:^```\\w+)" "```diff") }}
 {{ $diffBlock := (index (split $diffBlock "```") 1) }}
-{{ $diffBlock =  ($diffBlock | replaceRE "(?m:^([+-~])?.*$)" "$1") }}
+{{ $diffBlock =  ($diffBlock | replaceRE "(?m:^([+\-\~])?.*$)" "$1") }}
 {{ $diffBlock =  ($diffBlock | replaceRE "(?m:^$)" "." | replaceRE "\n" "") }}
 
 {{ $lines := split $diffBlock "" }}
