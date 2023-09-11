@@ -35,8 +35,9 @@ colors:
     focus_colors:
       focus: '#0096bfab'
     shortcode_colors:
-      diffcode-added: '#003506'
-      diffcode-removed: '#350000'
+      diffcode-added: '#ddffddcf'
+      diffcode-removed: '#ffc8c8'
+      diffcode-highlighted: '#fffea0'
     pagefind_colors:
       pagefind-ui-primary: '#000000'
       pagefind-ui-secondary: '#000000'
@@ -80,6 +81,7 @@ colors:
     shortcode_colors:
       diffcode-added: '#003506'
       diffcode-removed: '#350000'
+      diffcode-highlighted: '#424100'
     pagefind_colors:
       pagefind-ui-primary: '#D8D8D8'
       pagefind-ui-secondary: '#D8D8D8'
