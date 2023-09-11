@@ -54,15 +54,6 @@ body{
            
         }
 
-
-        [data-add]>span {
-            background-color: var(--diffcode-added);
-        }
-
-        [data-remove]>span {
-            background-color: var(--diffcode-removed);
-        }
-
         .header>.row .logo-dark {
             display: block;
         }
