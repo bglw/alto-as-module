@@ -6,7 +6,7 @@
 
 {{ $lines := split $diffBlock "" }}
 
-{{ $mainBlock :=  (. | replaceRE "(?m:^[+-])" "") | markdownify }}
+{{ $mainBlock :=  (. | replaceRE "(?m:^[+\\-~])" "") | markdownify }}
 
 {{ range $i, $l := (split $mainBlock `class="line"`)}}
     {{ if gt $i 0}}
