@@ -59,6 +59,10 @@ pre>code {
         pointer-events: none;
         user-select: none;
         filter: brightness(0.7) saturate(2);
+
+        body.dark & {
+            filter: brightness(2) saturate(2);
+        }
     }
 }
 
