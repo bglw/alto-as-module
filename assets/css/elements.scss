@@ -58,6 +58,7 @@ pre>code {
         font-weight: bold;
         pointer-events: none;
         user-select: none;
+        filter: brightness(0.7) saturate(2);
     }
 }
 
